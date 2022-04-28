@@ -1,0 +1,35 @@
+.contacts__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 45px;
+    padding-top: 230px;
+}
+
+.contacts__text a {
+    margin-top: 10px;
+}
+
+.contacts__text {
+    display: flex;
+    font-display: row;
+    align-items: center;
+}
+
+.contacts__subText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacts__img a:hover {
+    transform: scale(1.2);
+}

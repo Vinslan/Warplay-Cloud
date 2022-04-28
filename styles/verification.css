@@ -1,0 +1,35 @@
+.verification__mainText p {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    width: 840px;
+}
+
+.verification__hText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.verification__hText h2 {
+    font-family: "AireExterior";
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+}
+
+.verification__hText a {
+    margin-top: 10px;
+}
+
+.verification__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding-top: 270px;
+}

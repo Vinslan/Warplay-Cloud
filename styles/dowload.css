@@ -1,0 +1,33 @@
+.dowload__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 340px;
+}
+
+.dowload__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 125px;
+}
+
+.img__dowload {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    margin-left: 85px;
+}
+
+.img__dowload a {
+    transform: scale(1);
+    transition: 1s;
+}
+
+.img__dowload a:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}

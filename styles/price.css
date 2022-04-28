@@ -1,0 +1,89 @@
+.price__content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.price__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.price__card {
+    width: 400px;
+    height: 543px;
+    background-color: #1f2631;
+    border-radius: 5px;
+    padding: 76px 42px 47px 40px;
+    transition: 1s linear;
+}
+
+.price__card:hover {
+    background-color: #00c5ff;
+    color: #141C24;
+}
+
+.price__card h2 {
+    padding-right: 10px;
+}
+
+.price__card h3 {
+    margin: 15px 0 22px 0;
+}
+
+.price__card p {
+    margin-bottom: 80px;
+}
+
+.price__card a {
+    padding: 18px 123px 18px 123px;
+    background-color: #00c5ff;
+    border-radius: 5px;
+    color: #141C24;
+}
+
+.price__cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.price__line {
+    width: 582px;
+    height: 1px;
+    border: 1px solid #00c5ff;
+    margin-top: 90px;
+}
+
+.price__textH {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.price__textH a {
+    margin-top: 10px;
+}
+
+.price__textH h2 {
+    font-family: "AireExterior";
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 39px;
+}
